@@ -1,0 +1,111 @@
+.container {
+    border-bottom: #000000 3px solid;
+    text-align: center;
+}
+
+.menu-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-shadow: 3px 5px 6px grey;
+}
+
+body {
+    background-color: rgba(215, 213, 218, 0.3);
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(215, 213, 218, 0.6);
+    text-align: center;
+    border: 3px solid black;
+    text-shadow: 3px 5px 6px grey;
+    padding: 10px;
+    letter-spacing: 4px;
+}
+
+.main-body h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.main-body p {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin: 9px;
+    padding: 12px;
+    border-right-style: hidden;
+    background-color: rgba(215, 213, 218, 0.6);
+    border-radius: 40px;
+}
+.main-body img {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    height: 450px;
+    border-radius: 40px;
+}
+
+.img1 {
+    width: 470px;
+    height: 400px;
+}
+
+.img2 {
+    width: 470px;
+    height: 400px;
+}
+
+.img3 {
+    width: 470px;
+    height: 400px;
+}
+
+.other-inf h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.other-inf p {
+    font-family: "Gill Sans", sans-serif;
+    text-align: center;
+    margin: 9px;
+    padding: 12px;
+    border-right-style: hidden;
+    background-color: rgba(215, 213, 218, 0.6);
+    border-radius: 40px;
+}
+
+.os-app {
+    text-align: center;
+
+}
+
+.os-app h2 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+
+}
+
+.os-item {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+    
+}
+

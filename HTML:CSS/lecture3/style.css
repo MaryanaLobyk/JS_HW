@@ -1,0 +1,133 @@
+.body {
+    font-size: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+    background: rgb(218, 96, 211);
+    padding: 25px 0;
+}
+
+.white {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+
+}
+
+.black {
+    background: black;
+    width: 80%;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.red-grey {
+    background: red;
+}
+
+.orange-grey {
+    background: orange;
+}
+
+.blue-grey {
+    background: blue;
+}
+
+.yellow-grey {
+    background: yellow;
+}
+
+.grey_item {
+    width: 25%;
+    height: 150px;
+    float: left;
+}
+
+.grey {
+    background-color: grey;
+    padding-bottom: 15px;
+}
+
+.blocks_item {
+    width: 33.33%;
+    height: 400px;
+    float: left;
+}
+
+.green {
+    background-color: green;
+    
+}
+
+.orange-green {
+    background-color: orange;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+    
+}
+
+.beige {
+    background-color: bisque;
+    width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+}
+
+.yellow-green {
+    background-color: yellow;
+    width: 50%;
+    height: 250px;
+    float: left;
+    margin-top: 50px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+
+}
+
+.blue-purple {
+    background-color: blue; 
+    position: relative;
+    top: 250px;
+    
+}
+
+.yellow-purple {
+    background-color: yellow;
+    position: relative;
+    bottom: 10px;
+    left: 110px;
+}
+
+.orange-purple {
+    background-color: orange;
+    position: relative;
+    bottom: 250px;
+    left: 220px;
+    
+}
+
+.purple-item {
+    width: 30%;
+    height: 150px;
+}
+
