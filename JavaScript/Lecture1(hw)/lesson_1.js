@@ -154,74 +154,74 @@ document.write(rand_num);
 
 //з допомогою 3-х різних prompt() отримати 3 слова, котрі являються вашими ПІБ. Створити різі змінні.
 
-let UserSurname = prompt("What's your surname?");
-UserSurname = "Lobyk";
-alert(UserSurname);
-console.log(UserSurname);
-document.write(UserSurname);
-let UserName = prompt("What's your name?");
-UserName = "Maryana";
-alert(UserName);
-console.log(UserName);
-document.write(UserName);
-let PatronymicName = prompt("What's your patronymic?");
-PatronymicName = "Petryvna";
-alert(PatronymicName);
-console.log(PatronymicName);
-document.write(PatronymicName);
+let userSurname = prompt("What's your surname?");
+userSurname = "Lobyk";
+alert(userSurname);
+console.log(userSurname);
+document.write(userSurname);
+let userName = prompt("What's your name?");
+userName = "Maryana";
+alert(userName);
+console.log(userName);
+document.write(userName);
+let patronymicName = prompt("What's your patronymic?");
+patronymicName = "Petryvna";
+alert(patronymicName);
+console.log(patronymicName);
+document.write(patronymicName);
 
 //Змінні з попереднього завдання зробити в одній змінній person
 
-UserSurname = "Lobyk";
-UserName = "Maryana";
-PatronymicName = "Petryvna";
+userSurname = "Lobyk";
+userName = "Maryana";
+patronymicName = "Petryvna";
 
 let person = {
-    UserSurname, UserName, PatronymicName
+    userSurname, userName, patronymicName
 };
 console.log(person);
 
 //Застосувати 4-5 завдання до всіх членів сім'ї
 
-let FatherSurname = prompt("What's your father's surname?");
-UserSurname = "Lobyk";
-alert(FatherSurname);
-console.log(FatherSurname);
-document.write(FatherSurname);
-let FatherName = prompt("What's your father's name?");
-FatherName = "Petro";
-alert(FatherName);
-console.log(FatherName);
-document.write(FatherName);
-let FatherPatronymic = prompt("What's your father's patronymic?");
-FatherPatronymic = "Pavlovych";
-alert(FatherPatronymic);
-console.log(FatherPatronymic);
-document.write(FatherPatronymic);
+let fatherSurname = prompt("What's your father's surname?");
+userSurname = "Lobyk";
+alert(fatherSurname);
+console.log(fatherSurname);
+document.write(fatherSurname);
+let fatherName = prompt("What's your father's name?");
+fatherName = "Petro";
+alert(fatherName);
+console.log(fatherName);
+document.write(fatherName);
+let fatherPatronymic = prompt("What's your father's patronymic?");
+fatherPatronymic = "Pavlovych";
+alert(fatherPatronymic);
+console.log(fatherPatronymic);
+document.write(fatherPatronymic);
 
 let father_person = {
-    FatherSurname, FatherName, FatherPatronymic
+    fatherSurname, fatherName, fatherPatronymic
 };
 console.log(father_person);
 
-let MotherSurname = prompt("What's your mother's surname?");
-MotherSurname = "Gordynska";
-alert(MotherSurname);
-console.log(MotherSurname);
-document.write(MotherSurname);
-let MotherName = prompt("What's your mother's name?");
-FatherName = "Mariya";
-alert(MotherName);
-console.log(MotherName);
-document.write(MotherName);
-let MotherPatronymic = prompt("What's your mother's patronymic?");
-FatherPatronymic = "Romanyvna";
-alert(MotherPatronymic);
-console.log(MotherPatronymic);
-document.write(MotherPatronymic);
+let motherSurname = prompt("What's your mother's surname?");
+motherSurname = "Gordynska";
+alert(motherSurname);
+console.log(motherSurname);
+document.write(motherSurname);
+let motherName = prompt("What's your mother's name?");
+motherName = "Mariya";
+alert(motherName);
+console.log(motherName);
+document.write(motherName);
+let motherPatronymic = prompt("What's your mother's patronymic?");
+motherPatronymic = "Romanyvna";
+alert(motherPatronymic);
+console.log(motherPatronymic);
+document.write(motherPatronymic);
 
 let mother_person = {
-    MotherSurname, MotherName, MotherPatronymic
+    motherSurname, motherName, motherPatronymic
 };
 console.log(mother_person);
 
@@ -266,7 +266,7 @@ let result = {
 };
 console.log(result);
 
-З допомогою prompt() отримати 3 числа з плаваючою крапкою. Зокруглити їх Math.round. Скласти між собою записавши результат в змінну result. Вивести в консоль.
+//З допомогою prompt() отримати 3 числа з плаваючою крапкою. Зокруглити їх Math.round. Скласти між собою записавши результат в змінну result. Вивести в консоль.
 
 let num1 = prompt("Enter number_1: ");
 console.log(Math.round(num1));
@@ -341,3 +341,6 @@ console.log(!!'undefined'); // => true
 console.log(!!(3/'owu')); // => false
 console.log((111 > 11 || 45 < 111) ||  !!'0'); // => true
 console.log((!!111 == !!11 || 45 < 111) && (99 > 100 && 45 > 12 )); // => false
+
+
+
