@@ -589,8 +589,12 @@ document.body.appendChild(table);
 // --Завантажити з мережі будь-який шаблон сайту. Підключити до нього свій скріпт-файл. У файлі прописати наступні доступи та дії
 // - знайти всі елементі, які мають class
 
-let element = document.querySelectorAll('[class]');
-console.log(element);
+let element = document.getElementsByTagName('*');
+for (const el of element) {
+    if (el.getAttribute('class')){
+        console.log(el);
+    }
+}
 
 //- знайти всі параграфи ,та змінити текст на hello oktenweb!
 
